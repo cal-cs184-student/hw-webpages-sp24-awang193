@@ -115,7 +115,28 @@
 
     <div class="flex flex-row justify-center p-6">
       <div class="flex flex-col justify-center items-center">
-        <img src="images/task4.png" class="h-96" />
+        <img src="images/barycentric_explanation.png" class="h-96" />
+        <p class="text-xs font-italic">
+          Taken from
+          <a href="https://cs184.eecs.berkeley.edu/sp24/lecture/5-18/texture"
+            >lecture 5</a
+          >, this image shows how each point in the triangle is a weighted
+          combination of the others using color. Points closest to the vertices
+          are closer to the closest vertex's color, points on the edges are a
+          blend of the two vertices touching the edge, and points in the center
+          are gray/a mix of all three.
+        </p>
+      </div>
+    </div>
+
+    <p class="text-sm pb-2">
+      Below a color wheel is rendered with sample rate 1. It's comprised of many
+      triangles with barycentric color interpolation.
+    </p>
+
+    <div class="flex flex-row justify-center p-6">
+      <div class="flex flex-col justify-center items-center">
+        <img src="images/task 4.png" class="h-96" />
         <p class="text-xs font-italic">Sample rate: 1</p>
       </div>
     </div>
